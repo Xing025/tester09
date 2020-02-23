@@ -7,5 +7,8 @@ time.sleep(3)
 driver.find_element_by_id("index_search_words").send_keys("如何开发企业需求")
 time.sleep(3)
 driver.find_element_by_xpath("//form[@id='postsSearch']/i").click()
+time.sleep(2)
+driver.back()
+time.sleep(2)
 driver.quit()
 
